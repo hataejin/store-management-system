@@ -15,7 +15,7 @@ public class Receipe {
 	public void printInfo()
 	{
 		System.out.println("name : " + name + "\n" + "ingredient " + ingredient +"\n"+ "recipe : " + recipe);
-		
+		 
 	}
 	
   

@@ -9,7 +9,7 @@ public class storemanagement {
 			System.out.println("1. add recipe");
 			System.out.println("2. delete recipe");
 			System.out.println("3. edit recipe");
-			System.out.println("4. view recipe");
+			System.out.println("4. view recipes");
 			System.out.println("5. end");
 			System.out.print("choose menu :");
 			a = op.nextInt();
@@ -23,7 +23,7 @@ public class storemanagement {
 				recipe.editrecipe();
 			}
 			else if(a==4) {
-				recipe.viewrecipe();
+				recipe.viewrecipes();
 			}
 			else {
 				continue;
