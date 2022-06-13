@@ -70,8 +70,6 @@ public class RecipeManager {
 		}
 }
 	public void viewrecipes() {
-//		System.out.print("recipe name :");
-//		String b = op.next();	
 		for(int i =0; i< recipes.size(); i++) {
 			recipes.get(i).printInfo();
 		}
